@@ -1,0 +1,105 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<C-Down>	/home/saikiran/.vim/vimrc	/^map <C-Down> <C-W>j$/;"	m	language:Vim
+<C-Left>	/home/saikiran/.vim/vimrc	/^map <C-Left> <C-W>h$/;"	m	language:Vim
+<C-Right>	/home/saikiran/.vim/vimrc	/^map <C-Right> <C-W>l$/;"	m	language:Vim
+<C-Up>	/home/saikiran/.vim/vimrc	/^map <C-Up> <C-W>k$/;"	m	language:Vim
+<leader>d	/home/saikiran/.vim/vimrc	/^nnoremap <leader>d :NERDTreeToggle<CR>$/;"	m	language:Vim
+<leader>m	/home/saikiran/.vim/vimrc	/^nnoremap <leader>m :VimShellPop<CR>$/;"	m	language:Vim
+<leader>r	/home/saikiran/.vim/vimrc	/^nnoremap <leader>r :RainbowParenthesesToggle<CR>$/;"	m	language:Vim
+<leader>ss	/home/saikiran/.vim/vimrc	/^map <leader>ss :setlocal spell!<cr>$/;"	m	language:Vim
+<leader>t	/home/saikiran/.vim/vimrc	/^nnoremap <leader>t :TagbarToggle<CR>$/;"	m	language:Vim
+address	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char address[30];$/;"	m	language:C++	struct:passenger
+add_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int add_passenger( struct passenger *p )$/;"	f	language:C++
+add_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int add_passenger( struct passenger *p );$/;"	p	language:C++
+age	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	int age;$/;"	m	language:C++	struct:passenger
+AIRLINE_PASSENGER_H	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	2;"	d	language:C++
+assignmnet_dirs	/home/saikiran/Scripts/assignment_automation.py	/^assignmnet_dirs = '\/home\/saikiran\/Documents\/semester\/sem5'$/;"	v	language:Python
+audio	/home/saikiran/Documents/PycharmProjects/audio.py	/^        audio = recording.listen(source)$/;"	v	language:Python
+city	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char city[20];$/;"	m	language:C++	struct:passenger
+CleanExtraSpaces	/home/saikiran/.vim/vimrc	/^fun! CleanExtraSpaces()$/;"	f	language:Vim
+departuretime	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	int departuretime; \/\/Assume 24 hr Clock e.g. 1400 is 02:00 PM$/;"	m	language:C++	struct:passenger
+destination	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char destination[30];$/;"	m	language:C++	struct:passenger
+dir_list	/home/saikiran/Scripts/assignment_automation.py	/^dir_list = list(os.listdir(assignmnet_dirs))$/;"	v	language:Python
+driver	/home/saikiran/Scripts/automation/assignment_notifier.py	/^driver = webdriver.Firefox()$/;"	v	language:Python
+file_list	/home/saikiran/Scripts/assignment_automation.py	/^file_list = []$/;"	v	language:Python
+fout	/home/saikiran/Documents/semester/sem5/dbl_7/create_testcase1.py	/^fout = open("testcase1.in", "w")$/;"	v	language:Python
+g:airline#extensions#tabline#enabled	/home/saikiran/.vim/vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
+g:airline_powerline_fonts	/home/saikiran/.vim/vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:airline_symbols	/home/saikiran/.vim/vimrc	/^  let g:airline_symbols = {}$/;"	v	language:Vim
+g:airline_symbols	/home/saikiran/.vim/vimrc	/^let g:airline_symbols.space = "\\ua0"$/;"	v	language:Vim
+g:cpp_class_decl_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_class_decl_highlight = 1$/;"	v	language:Vim
+g:cpp_class_scope_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_class_scope_highlight = 1$/;"	v	language:Vim
+g:cpp_concepts_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_concepts_highlight = 1$/;"	v	language:Vim
+g:cpp_experimental_template_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_experimental_template_highlight = 1$/;"	v	language:Vim
+g:cpp_member_variable_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_member_variable_highlight = 1$/;"	v	language:Vim
+g:easytags_file	/home/saikiran/.vim/vimrc	/^let g:easytags_file = '~\/.vim\/tags'$/;"	v	language:Vim
+g:multi_cursor_next_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_next_key            = '<C-n>'$/;"	v	language:Vim
+g:multi_cursor_prev_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_prev_key            = '<C-p>'$/;"	v	language:Vim
+g:multi_cursor_quit_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_quit_key            = '<C-a>'$/;"	v	language:Vim
+g:multi_cursor_select_all_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_select_all_key      = 'g<A-n>'$/;"	v	language:Vim
+g:multi_cursor_select_all_word_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_select_all_word_key = '<A-n>'$/;"	v	language:Vim
+g:multi_cursor_skip_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_skip_key            = '<C-x>'$/;"	v	language:Vim
+g:multi_cursor_start_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_start_key           = 'g<C-n>'$/;"	v	language:Vim
+g:multi_cursor_start_word_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_start_word_key      = '<C-n>'$/;"	v	language:Vim
+g:multi_cursor_use_default_mapping	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_use_default_mapping=0$/;"	v	language:Vim
+g:NERDTreeDirArrowCollapsible	/home/saikiran/.vim/vimrc	/^let g:NERDTreeDirArrowCollapsible = '▾'$/;"	v	language:Vim
+g:NERDTreeDirArrowExpandable	/home/saikiran/.vim/vimrc	/^let g:NERDTreeDirArrowExpandable = '▸'$/;"	v	language:Vim
+g:rainbow_active	/home/saikiran/.vim/vimrc	/^ let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle$/;"	v	language:Vim
+g:rbpt_colorpairs	/home/saikiran/.vim/vimrc	/^let g:rbpt_colorpairs = [$/;"	v	language:Vim
+g:rbpt_loadcmd_toggle	/home/saikiran/.vim/vimrc	/^let g:rbpt_loadcmd_toggle = 0$/;"	v	language:Vim
+g:rbpt_max	/home/saikiran/.vim/vimrc	/^let g:rbpt_max = 16$/;"	v	language:Vim
+g:syntastic_always_populate_loc_list	/home/saikiran/.vim/vimrc	/^let g:syntastic_always_populate_loc_list = 1$/;"	v	language:Vim
+g:syntastic_auto_loc_list	/home/saikiran/.vim/vimrc	/^let g:syntastic_auto_loc_list = 1$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/saikiran/.vim/vimrc	/^let g:syntastic_check_on_open = 1$/;"	v	language:Vim
+g:syntastic_check_on_wq	/home/saikiran/.vim/vimrc	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:syntastic_c_checkers	/home/saikiran/.vim/vimrc	/^let g:syntastic_c_checkers = ['clang_check',"gcc"]$/;"	v	language:Vim
+g:syntastic_python_checkers	/home/saikiran/.vim/vimrc	/^let g:syntastic_python_checkers=['flake8']$/;"	v	language:Vim
+g:syntastic_quiet_messages	/home/saikiran/.vim/vimrc	/^let g:syntastic_quiet_messages = { 'regex': 'void' }$/;"	v	language:Vim
+g:tagbar_ctags_bin	/home/saikiran/.vim/vimrc	/^let g:tagbar_ctags_bin= '\/.local\/share\/ctags\/bin\/ctags'$/;"	v	language:Vim
+g:ycm_global_ycm_extra_conf	/home/saikiran/.vim/vimrc	/^let g:ycm_global_ycm_extra_conf = '~\/.vim\/.ycm_extra_conf.py'$/;"	v	language:Vim
+g:ycm_show_diagnostics_ui	/home/saikiran/.vim/vimrc	/^let g:ycm_show_diagnostics_ui = 0$/;"	v	language:Vim
+gender	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char gender;$/;"	m	language:C++	struct:passenger
+id_box	/home/saikiran/Scripts/automation/assignment_notifier.py	/^id_box = driver.find_element_by_id('username')$/;"	v	language:Python
+IoStream	/home/saikiran/.vim/vimrc	/^fu! IoStream()$/;"	f	language:Vim
+IoStream	/home/saikiran/.vim/vimrc	/^fu! IoStream()$/;"	f	language:Vim
+io_count	/home/saikiran/Documents/semester/sem5/dbl_7/create_testcase1.py	/^io_count = 1$/;"	v	language:Python
+JavaScriptFold	/home/saikiran/.vim/vimrc	/^function! JavaScriptFold()$/;"	f	language:Vim
+list_file	/home/saikiran/Scripts/assignment_automation.py	/^    list_file = list(os.listdir(os.path.join(assignmnet_dirs, directory)))$/;"	v	language:Python
+login_button	/home/saikiran/Scripts/automation/assignment_notifier.py	/^login_button = driver.find_element_by_id('loginbtn')$/;"	v	language:Python
+main	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger_dumper.c	/^int main()$/;"	f	language:C++
+main	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger_dumper.cpp	/^int main()$/;"	f	language:C++
+main	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger_loader.c	/^int main( int argc, char *argv[] )$/;"	f	language:C++
+main	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	/^int main(int argc, char *argv[])$/;"	f	language:C++
+mapleader	/home/saikiran/.vim/vimrc	/^let mapleader = ','$/;"	v	language:Vim
+mapleader	/home/saikiran/.vim/vimrc	/^let mapleader = ','$/;"	v	language:Vim
+match_passenger_phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int match_passenger_phone( struct passenger *p, char *phone ){$/;"	f	language:C++
+match_passenger_phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int match_passenger_phone( struct passenger *p, char *phone );$/;"	p	language:C++
+nationality	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char nationality[30];$/;"	m	language:C++	struct:passenger
+passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^struct passenger{$/;"	s	language:C++
+PASSENGER_FAILURE	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	5;"	d	language:C++
+passenger_id	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	int passenger_id; \/\/ Will Be Used as NDX Key$/;"	m	language:C++	struct:passenger
+passenger_name	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char passenger_name[20];$/;"	m	language:C++	struct:passenger
+PASSENGER_SUCCESS	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	4;"	d	language:C++
+pass_box	/home/saikiran/Scripts/automation/assignment_notifier.py	/^pass_box = driver.find_element_by_name('password')$/;"	v	language:Python
+phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char phone[20]; \/\/ Will be used as NON-NDX Key$/;"	m	language:C++	struct:passenger
+pincode	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	int pincode;$/;"	m	language:C++	struct:passenger
+print_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^void print_passenger( struct passenger *p )$/;"	f	language:C++
+print_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^void print_passenger( struct passenger *p );$/;"	p	language:C++
+process_line	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	/^void process_line( char *test_case )$/;"	f	language:C++
+process_line	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	/^void process_line( char *test_case );$/;"	p	language:C++	file:
+python_highlight_all	/home/saikiran/.vim/vimrc	/^let python_highlight_all = 1$/;"	v	language:Vim
+recording	/home/saikiran/Documents/PycharmProjects/audio.py	/^recording = sr.Recognizer()$/;"	v	language:Python
+search_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int search_passenger( int passenger_id, struct passenger *p )$/;"	f	language:C++
+search_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int search_passenger( int passenger_id, struct passenger *p );$/;"	p	language:C++
+search_passenger_by_phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int search_passenger_by_phone( char *phone, struct passenger *p, int *io_count ){$/;"	f	language:C++
+search_passenger_by_phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int search_passenger_by_phone( char *phone, struct passenger *p, int *io_count );$/;"	p	language:C++
+shuffle_list	/home/saikiran/Documents/semester/sem5/dbl_7/create_testcase1.py	/^shuffle_list = []$/;"	v	language:Python
+state	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char state[20];$/;"	m	language:C++	struct:passenger
+store_passengers	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int store_passengers( char *passenger_data_file )$/;"	f	language:C++
+store_passengers	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int store_passengers( char *passenger_data_file );$/;"	p	language:C++
+string	/home/saikiran/Documents/PycharmProjects/audio.py	/^            string = recording.recognize_google(audio)$/;"	v	language:Python
+terminal	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	/^int terminal = 0;$/;"	v	language:C++
+test_df	/home/saikiran/Documents/semester/Project/ML_Project/Toxic-Comment-Classification-Project/ml_codes/toxicnlp.py	/^test_df = pd.read_csv("test.csv")$/;"	v	language:Python
+tokenizer	/home/saikiran/Documents/semester/Project/ML_Project/Toxic-Comment-Classification-Project/ml_codes/toxicnlp.py	/^tokenizer = RegexpTokenizer(r'\\w+')$/;"	v	language:Python
+train_df	/home/saikiran/Documents/semester/Project/ML_Project/Toxic-Comment-Classification-Project/ml_codes/toxicnlp.py	/^train_df = pd.read_csv("train.csv")$/;"	v	language:Python
+TREPORT	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	8;"	d	language:C++	file:
