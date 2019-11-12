@@ -43,6 +43,7 @@ call vundle#begin() " alternatively, pass a path where Vundle should install plu
 			Plugin 'kien/rainbow_parentheses.vim'
 			Plugin 'tpope/vim-surround'
 			Plugin 'scrooloose/syntastic'
+			Plugin 'xuhdev/vim-latex-live-preview'
 			Plugin 'majutsushi/tagbar'
 			Plugin 'xolox/vim-misc'
 			Plugin 'xolox/vim-easytags'
