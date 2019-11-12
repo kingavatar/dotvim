@@ -33,6 +33,7 @@ g:cpp_concepts_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_concepts_highligh
 g:cpp_experimental_template_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_experimental_template_highlight = 1$/;"	v	language:Vim
 g:cpp_member_variable_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_member_variable_highlight = 1$/;"	v	language:Vim
 g:easytags_file	/home/saikiran/.vim/vimrc	/^let g:easytags_file = '~\/.vim\/tags'$/;"	v	language:Vim
+g:livepreview_previewer	/home/saikiran/.vim/vimrc	/^let g:livepreview_previewer = 'evince'$/;"	v	language:Vim
 g:multi_cursor_next_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_next_key            = '<C-n>'$/;"	v	language:Vim
 g:multi_cursor_prev_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_prev_key            = '<C-p>'$/;"	v	language:Vim
 g:multi_cursor_quit_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_quit_key            = '<C-a>'$/;"	v	language:Vim
