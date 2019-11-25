@@ -37,6 +37,8 @@ call vundle#begin() " alternatively, pass a path where Vundle should install plu
  "           Plugin 'ascenator/L9', {'name': 'newL9'}
 														" All of your Plugins must be added before the following line
 			Plugin 'Valloric/YouCompleteMe'
+			Plugin 'SirVer/ultisnips'
+			Plugin 'honza/vim-snippets'
 			Plugin 'vim-airline/vim-airline'
 			Plugin 'vim-airline/vim-airline-themes'
 			Plugin 'scrooloose/nerdcommenter'
@@ -52,7 +54,6 @@ call vundle#begin() " alternatively, pass a path where Vundle should install plu
 			Plugin 'junegunn/fzf'
 			Plugin 'terryma/vim-multiple-cursors'
 			Plugin 'octol/vim-cpp-enhanced-highlight'
-			Plugin 'hdima/python-syntax'
 			Plugin 'vim-scripts/dbext.vim'
 call vundle#end()            				" required
 filetype plugin indent on    " required
@@ -308,6 +309,18 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"           Util Snippets
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 

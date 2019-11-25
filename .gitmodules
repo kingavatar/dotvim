@@ -73,3 +73,6 @@
 [submodule "bundle/vim-latex-live-preview"]
 	path = bundle/vim-latex-live-preview
 	url = https://github.com/xuhdev/vim-latex-live-preview.git
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git

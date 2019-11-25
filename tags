@@ -57,6 +57,10 @@ g:syntastic_c_checkers	/home/saikiran/.vim/vimrc	/^let g:syntastic_c_checkers = 
 g:syntastic_python_checkers	/home/saikiran/.vim/vimrc	/^let g:syntastic_python_checkers=['flake8']$/;"	v	language:Vim
 g:syntastic_quiet_messages	/home/saikiran/.vim/vimrc	/^let g:syntastic_quiet_messages = { 'regex': 'void' }$/;"	v	language:Vim
 g:tagbar_ctags_bin	/home/saikiran/.vim/vimrc	/^let g:tagbar_ctags_bin= '\/.local\/share\/ctags\/bin\/ctags'$/;"	v	language:Vim
+g:UltiSnipsEditSplit	/home/saikiran/.vim/vimrc	/^let g:UltiSnipsEditSplit="vertical"$/;"	v	language:Vim
+g:UltiSnipsExpandTrigger	/home/saikiran/.vim/vimrc	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpBackwardTrigger	/home/saikiran/.vim/vimrc	/^let g:UltiSnipsJumpBackwardTrigger="<c-z>"$/;"	v	language:Vim
+g:UltiSnipsJumpForwardTrigger	/home/saikiran/.vim/vimrc	/^let g:UltiSnipsJumpForwardTrigger="<c-b>"$/;"	v	language:Vim
 g:ycm_global_ycm_extra_conf	/home/saikiran/.vim/vimrc	/^let g:ycm_global_ycm_extra_conf = '~\/.vim\/.ycm_extra_conf.py'$/;"	v	language:Vim
 g:ycm_show_diagnostics_ui	/home/saikiran/.vim/vimrc	/^let g:ycm_show_diagnostics_ui = 0$/;"	v	language:Vim
 gender	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char gender;$/;"	m	language:C++	struct:passenger
