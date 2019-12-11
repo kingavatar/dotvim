@@ -79,3 +79,9 @@
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "smancill/conky-syntax.vim"]
+	path = smancill/conky-syntax.vim
+	url = https://github.com/smancill/conky-syntax.vim.git
+[submodule "bundle/conky-syntax.vim"]
+	path = bundle/conky-syntax.vim
+	url = https://github.com/smancill/conky-syntax.vim.git
