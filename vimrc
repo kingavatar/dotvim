@@ -16,7 +16,8 @@ filetype on                  " off required
 " set the runtime path to include Vundle and initialize
 
 set rtp+=~/.vim/bundle/Vundle.vim
-let g:tagbar_ctags_bin= '/.local/share/ctags/bin/ctags'
+"let g:tagbar_ctags_bin= '/var/lib/snapd/snap/universal-ctags/current/bin/ctags'
+let g:tagbar_ctags_bin= '/usr/bin/ctags'
 
 call vundle#begin() " alternatively, pass a path where Vundle should install plugins
                     "call vundle#begin('~/some/path/here')
@@ -36,14 +37,17 @@ call vundle#begin() " alternatively, pass a path where Vundle should install plu
                                                          " different version somewhere else.
  "           Plugin 'ascenator/L9', {'name': 'newL9'}
 														" All of your Plugins must be added before the following line
+			Plugin 'ervandew/supertab'
 			Plugin 'Valloric/YouCompleteMe'
 			Plugin 'SirVer/ultisnips'
 			Plugin 'honza/vim-snippets'
+			Plugin 'mhinz/vim-startify'
 			Plugin 'vim-airline/vim-airline'
 			Plugin 'vim-airline/vim-airline-themes'
 			Plugin 'scrooloose/nerdcommenter'
 			Plugin 'kien/rainbow_parentheses.vim'
 			Plugin 'tpope/vim-surround'
+			Plugin 'jiangmiao/auto-pairs'
 			Plugin 'scrooloose/syntastic'
 			Plugin 'smancill/conky-syntax.vim', {'for': 'conkyrc'}
 			Plugin 'xuhdev/vim-latex-live-preview'
@@ -72,6 +76,7 @@ filetype plugin indent on    " required
 																								 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
+"set termguicolors
 set autoread " Set to auto read when a file is changed from the outside
 set hidden
 set nowrap        " don't wrap lines
@@ -241,6 +246,10 @@ au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
 au FileType javascript setl nocindent
 
+""""""""""""Prettier""""""""""""""""""""""""""""
+autocmd FileType javascript set formatprg=prettier\ --stdin
+autocmd BufWritePre *.js :normal gggqG
+""""""""""""""""""""""""""""""""""""""""""""""""
 au FileType javascript imap <c-t> $log();<esc>hi
 au FileType javascript imap <c-a> alert();<esc>hi
 

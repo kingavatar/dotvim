@@ -1,85 +1,130 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
-<C-Down>	/home/saikiran/.vim/vimrc	/^map <C-Down> <C-W>j$/;"	m	language:Vim
-<C-Left>	/home/saikiran/.vim/vimrc	/^map <C-Left> <C-W>h$/;"	m	language:Vim
-<C-Right>	/home/saikiran/.vim/vimrc	/^map <C-Right> <C-W>l$/;"	m	language:Vim
-<C-Up>	/home/saikiran/.vim/vimrc	/^map <C-Up> <C-W>k$/;"	m	language:Vim
-<leader>d	/home/saikiran/.vim/vimrc	/^nnoremap <leader>d :NERDTreeToggle<CR>$/;"	m	language:Vim
-<leader>m	/home/saikiran/.vim/vimrc	/^nnoremap <leader>m :VimShellPop<CR>$/;"	m	language:Vim
-<leader>r	/home/saikiran/.vim/vimrc	/^nnoremap <leader>r :RainbowParenthesesToggle<CR>$/;"	m	language:Vim
-<leader>ss	/home/saikiran/.vim/vimrc	/^map <leader>ss :setlocal spell!<cr>$/;"	m	language:Vim
-<leader>t	/home/saikiran/.vim/vimrc	/^nnoremap <leader>t :TagbarToggle<CR>$/;"	m	language:Vim
+<C-Down>	/home/saikiran/.vimrc	/^map <C-Down> <C-W>j$/;"	m	language:Vim
+<C-Left>	/home/saikiran/.vimrc	/^map <C-Left> <C-W>h$/;"	m	language:Vim
+<C-Right>	/home/saikiran/.vimrc	/^map <C-Right> <C-W>l$/;"	m	language:Vim
+<C-Up>	/home/saikiran/.vimrc	/^map <C-Up> <C-W>k$/;"	m	language:Vim
+<leader>d	/home/saikiran/.vimrc	/^nnoremap <leader>d :NERDTreeToggle<CR>$/;"	m	language:Vim
+<leader>m	/home/saikiran/.vimrc	/^nnoremap <leader>m :VimShellPop<CR>$/;"	m	language:Vim
+<leader>r	/home/saikiran/.vimrc	/^nnoremap <leader>r :RainbowParenthesesToggle<CR>$/;"	m	language:Vim
+<leader>ss	/home/saikiran/.vimrc	/^map <leader>ss :setlocal spell!<cr>$/;"	m	language:Vim
+<leader>t	/home/saikiran/.vimrc	/^nnoremap <leader>t :TagbarToggle<CR>$/;"	m	language:Vim
 address	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char address[30];$/;"	m	language:C++	struct:passenger
 add_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int add_passenger( struct passenger *p )$/;"	f	language:C++
 add_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int add_passenger( struct passenger *p );$/;"	p	language:C++
 age	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	int age;$/;"	m	language:C++	struct:passenger
 AIRLINE_PASSENGER_H	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	2;"	d	language:C++
+alphabet	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^alphabet = "alphabet.txt"$/;"	v	language:Python
+angle_to_position	/home/saikiran/themes/conky/seamod/seamod_rings.lua	/^function angle_to_position(start_angle, current_angle)$/;"	f	language:Lua
+App	/home/saikiran/Documents/Projects/practise/src/App.js	/^function App() {$/;"	f	language:JavaScript
 assignmnet_dirs	/home/saikiran/Scripts/assignment_automation.py	/^assignmnet_dirs = '\/home\/saikiran\/Documents\/semester\/sem5'$/;"	v	language:Python
 audio	/home/saikiran/Documents/PycharmProjects/audio.py	/^        audio = recording.listen(source)$/;"	v	language:Python
+audio	/home/saikiran/scripts/audio.py	/^    audio = r.listen(source)$/;"	v	language:Python
+audio	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^        audio = np.frombuffer(audio.frame_data, np.int16)$/;"	v	language:Python
+audio	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^        audio = r.listen(source)$/;"	v	language:Python
+audio	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^        audio = np.frombuffer(audio.frame_data, np.int16)$/;"	v	language:Python
+audio	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^        audio = r.listen(source)$/;"	v	language:Python
+audio_file	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^audio_file = "demo.wav"$/;"	v	language:Python
+beam_width	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^beam_width = 500$/;"	v	language:Python
+beam_width	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^beam_width = 500$/;"	v	language:Python
+calc_delta	/home/saikiran/themes/conky/demode/scripts/lua/widget_rings.lua	/^local function calc_delta(tcol1,tcol2)$/;"	f	language:Lua
 city	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char city[20];$/;"	m	language:C++	struct:passenger
-CleanExtraSpaces	/home/saikiran/.vim/vimrc	/^fun! CleanExtraSpaces()$/;"	f	language:Vim
+CleanExtraSpaces	/home/saikiran/.vimrc	/^fun! CleanExtraSpaces()$/;"	f	language:Vim
+command	/home/saikiran/scripts/audio.py	/^    command = r.recognize_google(audio)$/;"	v	language:Python
+conky_main	/home/saikiran/themes/conky/seamod/seamod_rings.lua	/^function conky_main()$/;"	f	language:Lua
+conky_main_rings	/home/saikiran/themes/conky/demode/scripts/lua/widget_rings.lua	/^function conky_main_rings()$/;"	f	language:Lua
+convert_samplerate	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^def convert_samplerate(audio_path, desired_sample_rate):$/;"	f	language:Python
 departuretime	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	int departuretime; \/\/Assume 24 hr Clock e.g. 1400 is 02:00 PM$/;"	m	language:C++	struct:passenger
 destination	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char destination[30];$/;"	m	language:C++	struct:passenger
 dir_list	/home/saikiran/Scripts/assignment_automation.py	/^dir_list = list(os.listdir(assignmnet_dirs))$/;"	v	language:Python
+draw_gauge_ring	/home/saikiran/themes/conky/seamod/seamod_rings.lua	/^function draw_gauge_ring(display, data, value)$/;"	f	language:Lua
+draw_ring	/home/saikiran/themes/conky/demode/scripts/lua/widget_rings.lua	/^function draw_ring(cr, t)$/;"	f	language:Lua
+draw_sector	/home/saikiran/themes/conky/demode/scripts/lua/widget_rings.lua	/^local function draw_sector(type_arc,angle0,angle,valpc, idx)$/;"	f	language:Lua
 driver	/home/saikiran/Scripts/automation/assignment_notifier.py	/^driver = webdriver.Firefox()$/;"	v	language:Python
+ds	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^    ds = Model(model_name,beam_width)#n_features, n_context, alphabet,$/;"	v	language:Python
+ds	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^    ds = Model(model_name, n_features, n_context, alphabet, beam_width)$/;"	v	language:Python
 file_list	/home/saikiran/Scripts/assignment_automation.py	/^file_list = []$/;"	v	language:Python
+FoldText	/home/saikiran/.vimrc	/^    function! FoldText()$/;"	f	language:Vim
 fout	/home/saikiran/Documents/semester/sem5/dbl_7/create_testcase1.py	/^fout = open("testcase1.in", "w")$/;"	v	language:Python
-g:airline#extensions#tabline#enabled	/home/saikiran/.vim/vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
-g:airline_powerline_fonts	/home/saikiran/.vim/vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
-g:airline_symbols	/home/saikiran/.vim/vimrc	/^  let g:airline_symbols = {}$/;"	v	language:Vim
-g:airline_symbols	/home/saikiran/.vim/vimrc	/^let g:airline_symbols.space = "\\ua0"$/;"	v	language:Vim
-g:cpp_class_decl_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_class_decl_highlight = 1$/;"	v	language:Vim
-g:cpp_class_scope_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_class_scope_highlight = 1$/;"	v	language:Vim
-g:cpp_concepts_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_concepts_highlight = 1$/;"	v	language:Vim
-g:cpp_experimental_template_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_experimental_template_highlight = 1$/;"	v	language:Vim
-g:cpp_member_variable_highlight	/home/saikiran/.vim/vimrc	/^let g:cpp_member_variable_highlight = 1$/;"	v	language:Vim
-g:easytags_file	/home/saikiran/.vim/vimrc	/^let g:easytags_file = '~\/.vim\/tags'$/;"	v	language:Vim
-g:livepreview_previewer	/home/saikiran/.vim/vimrc	/^let g:livepreview_previewer = 'evince'$/;"	v	language:Vim
-g:multi_cursor_next_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_next_key            = '<C-n>'$/;"	v	language:Vim
-g:multi_cursor_prev_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_prev_key            = '<C-p>'$/;"	v	language:Vim
-g:multi_cursor_quit_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_quit_key            = '<C-a>'$/;"	v	language:Vim
-g:multi_cursor_select_all_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_select_all_key      = 'g<A-n>'$/;"	v	language:Vim
-g:multi_cursor_select_all_word_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_select_all_word_key = '<A-n>'$/;"	v	language:Vim
-g:multi_cursor_skip_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_skip_key            = '<C-x>'$/;"	v	language:Vim
-g:multi_cursor_start_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_start_key           = 'g<C-n>'$/;"	v	language:Vim
-g:multi_cursor_start_word_key	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_start_word_key      = '<C-n>'$/;"	v	language:Vim
-g:multi_cursor_use_default_mapping	/home/saikiran/.vim/vimrc	/^let g:multi_cursor_use_default_mapping=0$/;"	v	language:Vim
-g:NERDTreeDirArrowCollapsible	/home/saikiran/.vim/vimrc	/^let g:NERDTreeDirArrowCollapsible = '▾'$/;"	v	language:Vim
-g:NERDTreeDirArrowExpandable	/home/saikiran/.vim/vimrc	/^let g:NERDTreeDirArrowExpandable = '▸'$/;"	v	language:Vim
-g:rainbow_active	/home/saikiran/.vim/vimrc	/^ let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle$/;"	v	language:Vim
-g:rbpt_colorpairs	/home/saikiran/.vim/vimrc	/^let g:rbpt_colorpairs = [$/;"	v	language:Vim
-g:rbpt_loadcmd_toggle	/home/saikiran/.vim/vimrc	/^let g:rbpt_loadcmd_toggle = 0$/;"	v	language:Vim
-g:rbpt_max	/home/saikiran/.vim/vimrc	/^let g:rbpt_max = 16$/;"	v	language:Vim
-g:syntastic_always_populate_loc_list	/home/saikiran/.vim/vimrc	/^let g:syntastic_always_populate_loc_list = 1$/;"	v	language:Vim
-g:syntastic_auto_loc_list	/home/saikiran/.vim/vimrc	/^let g:syntastic_auto_loc_list = 1$/;"	v	language:Vim
-g:syntastic_check_on_open	/home/saikiran/.vim/vimrc	/^let g:syntastic_check_on_open = 1$/;"	v	language:Vim
-g:syntastic_check_on_wq	/home/saikiran/.vim/vimrc	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
-g:syntastic_c_checkers	/home/saikiran/.vim/vimrc	/^let g:syntastic_c_checkers = ['clang_check',"gcc"]$/;"	v	language:Vim
-g:syntastic_python_checkers	/home/saikiran/.vim/vimrc	/^let g:syntastic_python_checkers=['flake8']$/;"	v	language:Vim
-g:syntastic_quiet_messages	/home/saikiran/.vim/vimrc	/^let g:syntastic_quiet_messages = { 'regex': 'void' }$/;"	v	language:Vim
-g:tagbar_ctags_bin	/home/saikiran/.vim/vimrc	/^let g:tagbar_ctags_bin= '\/.local\/share\/ctags\/bin\/ctags'$/;"	v	language:Vim
-g:UltiSnipsEditSplit	/home/saikiran/.vim/vimrc	/^let g:UltiSnipsEditSplit="vertical"$/;"	v	language:Vim
-g:UltiSnipsExpandTrigger	/home/saikiran/.vim/vimrc	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v	language:Vim
-g:UltiSnipsJumpBackwardTrigger	/home/saikiran/.vim/vimrc	/^let g:UltiSnipsJumpBackwardTrigger="<c-z>"$/;"	v	language:Vim
-g:UltiSnipsJumpForwardTrigger	/home/saikiran/.vim/vimrc	/^let g:UltiSnipsJumpForwardTrigger="<c-b>"$/;"	v	language:Vim
-g:ycm_global_ycm_extra_conf	/home/saikiran/.vim/vimrc	/^let g:ycm_global_ycm_extra_conf = '~\/.vim\/.ycm_extra_conf.py'$/;"	v	language:Vim
-g:ycm_show_diagnostics_ui	/home/saikiran/.vim/vimrc	/^let g:ycm_show_diagnostics_ui = 0$/;"	v	language:Vim
+fs	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^        fs = audio.sample_rate$/;"	v	language:Python
+fs	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^        fs = audio.sample_rate$/;"	v	language:Python
+g:airline#extensions#tabline#enabled	/home/saikiran/.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
+g:airline_powerline_fonts	/home/saikiran/.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:airline_symbols	/home/saikiran/.vimrc	/^  let g:airline_symbols = {}$/;"	v	language:Vim
+g:airline_symbols	/home/saikiran/.vimrc	/^let g:airline_symbols.space = "\\ua0"$/;"	v	language:Vim
+g:cpp_class_decl_highlight	/home/saikiran/.vimrc	/^let g:cpp_class_decl_highlight = 1$/;"	v	language:Vim
+g:cpp_class_scope_highlight	/home/saikiran/.vimrc	/^let g:cpp_class_scope_highlight = 1$/;"	v	language:Vim
+g:cpp_concepts_highlight	/home/saikiran/.vimrc	/^let g:cpp_concepts_highlight = 1$/;"	v	language:Vim
+g:cpp_experimental_template_highlight	/home/saikiran/.vimrc	/^let g:cpp_experimental_template_highlight = 1$/;"	v	language:Vim
+g:cpp_member_variable_highlight	/home/saikiran/.vimrc	/^let g:cpp_member_variable_highlight = 1$/;"	v	language:Vim
+g:easytags_file	/home/saikiran/.vimrc	/^let g:easytags_file = '~\/.vim\/tags'$/;"	v	language:Vim
+g:livepreview_previewer	/home/saikiran/.vimrc	/^let g:livepreview_previewer = 'evince'$/;"	v	language:Vim
+g:multi_cursor_next_key	/home/saikiran/.vimrc	/^let g:multi_cursor_next_key            = '<C-n>'$/;"	v	language:Vim
+g:multi_cursor_prev_key	/home/saikiran/.vimrc	/^let g:multi_cursor_prev_key            = '<C-p>'$/;"	v	language:Vim
+g:multi_cursor_quit_key	/home/saikiran/.vimrc	/^let g:multi_cursor_quit_key            = '<C-a>'$/;"	v	language:Vim
+g:multi_cursor_select_all_key	/home/saikiran/.vimrc	/^let g:multi_cursor_select_all_key      = 'g<A-n>'$/;"	v	language:Vim
+g:multi_cursor_select_all_word_key	/home/saikiran/.vimrc	/^let g:multi_cursor_select_all_word_key = '<A-n>'$/;"	v	language:Vim
+g:multi_cursor_skip_key	/home/saikiran/.vimrc	/^let g:multi_cursor_skip_key            = '<C-x>'$/;"	v	language:Vim
+g:multi_cursor_start_key	/home/saikiran/.vimrc	/^let g:multi_cursor_start_key           = 'g<C-n>'$/;"	v	language:Vim
+g:multi_cursor_start_word_key	/home/saikiran/.vimrc	/^let g:multi_cursor_start_word_key      = '<C-n>'$/;"	v	language:Vim
+g:multi_cursor_use_default_mapping	/home/saikiran/.vimrc	/^let g:multi_cursor_use_default_mapping=0$/;"	v	language:Vim
+g:NERDTreeDirArrowCollapsible	/home/saikiran/.vimrc	/^let g:NERDTreeDirArrowCollapsible = '▾'$/;"	v	language:Vim
+g:NERDTreeDirArrowExpandable	/home/saikiran/.vimrc	/^let g:NERDTreeDirArrowExpandable = '▸'$/;"	v	language:Vim
+g:rainbow_active	/home/saikiran/.vimrc	/^ let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle$/;"	v	language:Vim
+g:rbpt_colorpairs	/home/saikiran/.vimrc	/^let g:rbpt_colorpairs = [$/;"	v	language:Vim
+g:rbpt_loadcmd_toggle	/home/saikiran/.vimrc	/^let g:rbpt_loadcmd_toggle = 0$/;"	v	language:Vim
+g:rbpt_max	/home/saikiran/.vimrc	/^let g:rbpt_max = 16$/;"	v	language:Vim
+g:syntastic_always_populate_loc_list	/home/saikiran/.vimrc	/^let g:syntastic_always_populate_loc_list = 1$/;"	v	language:Vim
+g:syntastic_auto_loc_list	/home/saikiran/.vimrc	/^let g:syntastic_auto_loc_list = 1$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/saikiran/.vimrc	/^let g:syntastic_check_on_open = 1$/;"	v	language:Vim
+g:syntastic_check_on_wq	/home/saikiran/.vimrc	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:syntastic_c_checkers	/home/saikiran/.vimrc	/^let g:syntastic_c_checkers = ['clang_check',"gcc"]$/;"	v	language:Vim
+g:syntastic_python_checkers	/home/saikiran/.vimrc	/^let g:syntastic_python_checkers=['flake8']$/;"	v	language:Vim
+g:syntastic_quiet_messages	/home/saikiran/.vimrc	/^let g:syntastic_quiet_messages = { 'regex': 'void' }$/;"	v	language:Vim
+g:tagbar_ctags_bin	/home/saikiran/.vimrc	/^let g:tagbar_ctags_bin= '\/usr\/bin\/ctags'$/;"	v	language:Vim
+g:UltiSnipsEditSplit	/home/saikiran/.vimrc	/^let g:UltiSnipsEditSplit="vertical"$/;"	v	language:Vim
+g:UltiSnipsExpandTrigger	/home/saikiran/.vimrc	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpBackwardTrigger	/home/saikiran/.vimrc	/^let g:UltiSnipsJumpBackwardTrigger="<c-z>"$/;"	v	language:Vim
+g:UltiSnipsJumpForwardTrigger	/home/saikiran/.vimrc	/^let g:UltiSnipsJumpForwardTrigger="<c-b>"$/;"	v	language:Vim
+g:ycm_global_ycm_extra_conf	/home/saikiran/.vimrc	/^let g:ycm_global_ycm_extra_conf = '~\/.vim\/.ycm_extra_conf.py'$/;"	v	language:Vim
+g:ycm_show_diagnostics_ui	/home/saikiran/.vimrc	/^let g:ycm_show_diagnostics_ui = 0$/;"	v	language:Vim
 gender	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char gender;$/;"	m	language:C++	struct:passenger
+go_gauge_rings	/home/saikiran/themes/conky/seamod/seamod_rings.lua	/^function go_gauge_rings(display)$/;"	f	language:Lua
 id_box	/home/saikiran/Scripts/automation/assignment_notifier.py	/^id_box = driver.find_element_by_id('username')$/;"	v	language:Python
-IoStream	/home/saikiran/.vim/vimrc	/^fu! IoStream()$/;"	f	language:Vim
-IoStream	/home/saikiran/.vim/vimrc	/^fu! IoStream()$/;"	f	language:Vim
+IoStream	/home/saikiran/.vimrc	/^fu! IoStream()$/;"	f	language:Vim
+IoStream	/home/saikiran/.vimrc	/^fu! IoStream()$/;"	f	language:Vim
 io_count	/home/saikiran/Documents/semester/sem5/dbl_7/create_testcase1.py	/^io_count = 1$/;"	v	language:Python
-JavaScriptFold	/home/saikiran/.vim/vimrc	/^function! JavaScriptFold()$/;"	f	language:Vim
+it	/home/saikiran/themes/conky/demode/scripts/lua/widget_rings.lua	/^IMPORTANT: if you are using the 'cpu' function, it will cause a segmentation fault if it tries t/;"	f	language:Lua
+JavaScriptFold	/home/saikiran/.vimrc	/^function! JavaScriptFold()$/;"	f	language:Vim
+langauage_model	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^langauage_model = "models\/lm.binary"$/;"	v	language:Python
+langauage_model	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^langauage_model = "lm.binary"$/;"	v	language:Python
 list_file	/home/saikiran/Scripts/assignment_automation.py	/^    list_file = list(os.listdir(os.path.join(assignmnet_dirs, directory)))$/;"	v	language:Python
+lm_alpha	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^lm_alpha = 0.75$/;"	v	language:Python
+lm_alpha	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^lm_alpha = 0.75$/;"	v	language:Python
+lm_beta	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^lm_beta = 1.85$/;"	v	language:Python
+lm_beta	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^lm_beta = 1.85$/;"	v	language:Python
+load_gauge_rings	/home/saikiran/themes/conky/seamod/seamod_rings.lua	/^    local function load_gauge_rings(display, data)$/;"	f	language:Lua
 login_button	/home/saikiran/Scripts/automation/assignment_notifier.py	/^login_button = driver.find_element_by_id('loginbtn')$/;"	v	language:Python
 main	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger_dumper.c	/^int main()$/;"	f	language:C++
 main	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger_dumper.cpp	/^int main()$/;"	f	language:C++
 main	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger_loader.c	/^int main( int argc, char *argv[] )$/;"	f	language:C++
 main	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	/^int main(int argc, char *argv[])$/;"	f	language:C++
-mapleader	/home/saikiran/.vim/vimrc	/^let mapleader = ','$/;"	v	language:Vim
-mapleader	/home/saikiran/.vim/vimrc	/^let mapleader = ','$/;"	v	language:Vim
+main	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^def main():$/;"	f	language:Python
+mapleader	/home/saikiran/.vimrc	/^let mapleader = ','$/;"	v	language:Vim
+mapleader	/home/saikiran/.vimrc	/^let mapleader = ','$/;"	v	language:Vim
 match_passenger_phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int match_passenger_phone( struct passenger *p, char *phone ){$/;"	f	language:C++
 match_passenger_phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int match_passenger_phone( struct passenger *p, char *phone );$/;"	p	language:C++
+metadata_json_output	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^def metadata_json_output(metadata):$/;"	f	language:Python
+metadata_to_string	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^def metadata_to_string(metadata):$/;"	f	language:Python
+model_name	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^model_name = "models\/output_graph.pbmm"$/;"	v	language:Python
+model_name	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^model_name = "output_graph.pbmm"$/;"	v	language:Python
 nationality	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char nationality[30];$/;"	m	language:C++	struct:passenger
+np	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^import numpy as np$/;"	I	language:Python
+np	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^import numpy as np$/;"	I	language:Python
+np	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^import numpy as np$/;"	I	language:Python
+n_context	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^n_context = 9$/;"	v	language:Python
+n_context	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^n_context = 9$/;"	v	language:Python
+n_features	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^n_features = 26$/;"	v	language:Python
+n_features	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^n_features = 26$/;"	v	language:Python
 passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^struct passenger{$/;"	s	language:C++
 PASSENGER_FAILURE	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	5;"	d	language:C++
 passenger_id	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	int passenger_id; \/\/ Will Be Used as NDX Key$/;"	m	language:C++	struct:passenger
@@ -92,19 +137,39 @@ print_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c
 print_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^void print_passenger( struct passenger *p );$/;"	p	language:C++
 process_line	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	/^void process_line( char *test_case )$/;"	f	language:C++
 process_line	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	/^void process_line( char *test_case );$/;"	p	language:C++	file:
-python_highlight_all	/home/saikiran/.vim/vimrc	/^let python_highlight_all = 1$/;"	v	language:Vim
+python_highlight_all	/home/saikiran/.vimrc	/^let python_highlight_all = 1$/;"	v	language:Vim
+r	/home/saikiran/scripts/audio.py	/^r = sr.Recognizer()$/;"	v	language:Python
+r	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^    r = sr.Recognizer()$/;"	v	language:Python
+r	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^    r = sr.Recognizer()$/;"	v	language:Python
 recording	/home/saikiran/Documents/PycharmProjects/audio.py	/^recording = sr.Recognizer()$/;"	v	language:Python
+rgba_to_r_g_b_a	/home/saikiran/themes/conky/demode/scripts/lua/widget_rings.lua	/^local function rgba_to_r_g_b_a(tcolour)$/;"	f	language:Lua
+rgb_to_r_g_b	/home/saikiran/themes/conky/seamod/seamod_rings.lua	/^function rgb_to_r_g_b(colour, alpha)$/;"	f	language:Lua
+sample_rate	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^sample_rate = 16000$/;"	v	language:Python
+sample_rate	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^sample_rate = 16000$/;"	v	language:Python
 search_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int search_passenger( int passenger_id, struct passenger *p )$/;"	f	language:C++
 search_passenger	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int search_passenger( int passenger_id, struct passenger *p );$/;"	p	language:C++
 search_passenger_by_phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int search_passenger_by_phone( char *phone, struct passenger *p, int *io_count ){$/;"	f	language:C++
 search_passenger_by_phone	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int search_passenger_by_phone( char *phone, struct passenger *p, int *io_count );$/;"	p	language:C++
+setup	/home/saikiran/themes/conky/demode/scripts/lua/widget_rings.lua	/^local function setup(t)$/;"	f	language:Lua
 shuffle_list	/home/saikiran/Documents/semester/sem5/dbl_7/create_testcase1.py	/^shuffle_list = []$/;"	v	language:Python
+sr	/home/saikiran/scripts/audio.py	/^import speech_recognition as sr$/;"	I	language:Python
+sr	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^import speech_recognition as sr$/;"	I	language:Python
+sr	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^import speech_recognition as sr$/;"	I	language:Python
+sr	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^import speech_recognition as sr$/;"	I	language:Python
 state	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^	char state[20];$/;"	m	language:C++	struct:passenger
 store_passengers	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.c	/^int store_passengers( char *passenger_data_file )$/;"	f	language:C++
 store_passengers	/home/saikiran/Documents/semester/sem5/dbl_7/airline_passenger.h	/^int store_passengers( char *passenger_data_file );$/;"	p	language:C++
 string	/home/saikiran/Documents/PycharmProjects/audio.py	/^            string = recording.recognize_google(audio)$/;"	v	language:Python
 terminal	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	/^int terminal = 0;$/;"	v	language:C++
 test_df	/home/saikiran/Documents/semester/Project/ML_Project/Toxic-Comment-Classification-Project/ml_codes/toxicnlp.py	/^test_df = pd.read_csv("test.csv")$/;"	v	language:Python
+timer	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^from timeit import default_timer as timer$/;"	x	language:Python
+toggleBorder	/home/saikiran/tools/king-kwin-script/main.js	/^function toggleBorder(workspace) {$/;"	f	language:JavaScript
 tokenizer	/home/saikiran/Documents/semester/Project/ML_Project/Toxic-Comment-Classification-Project/ml_codes/toxicnlp.py	/^tokenizer = RegexpTokenizer(r'\\w+')$/;"	v	language:Python
 train_df	/home/saikiran/Documents/semester/Project/ML_Project/Toxic-Comment-Classification-Project/ml_codes/toxicnlp.py	/^train_df = pd.read_csv("train.csv")$/;"	v	language:Python
 TREPORT	/home/saikiran/Documents/semester/sem5/dbl_7/pds_tester.c	8;"	d	language:C++	file:
+trie	/home/saikiran/tools/deepspeech-0.6.0-models/audio.py	/^trie = "models\/trie"$/;"	v	language:Python
+trie	/home/saikiran/tools/deepspeech-0.6.0-models/DeepSpeech-examples/audio.py	/^trie = "trie"$/;"	v	language:Python
+VersionAction	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^class VersionAction(argparse.Action):$/;"	c	language:Python
+words_from_metadata	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^def words_from_metadata(metadata):$/;"	f	language:Python
+__call__	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^    def __call__(self, *args, **kwargs):$/;"	m	language:Python	class:VersionAction
+__init__	/home/saikiran/tools/deepspeech-0.6.0-models/client.py	/^    def __init__(self, *args, **kwargs):$/;"	m	language:Python	class:VersionAction

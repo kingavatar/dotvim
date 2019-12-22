@@ -85,3 +85,12 @@
 [submodule "bundle/conky-syntax.vim"]
 	path = bundle/conky-syntax.vim
 	url = https://github.com/smancill/conky-syntax.vim.git
+[submodule "bundle/vim-startify"]
+	path = bundle/vim-startify
+	url = https://github.com/mhinz/vim-startify.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
