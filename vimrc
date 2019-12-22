@@ -16,6 +16,17 @@ function! BuildYCM(info)
   endif
 endfunction
 
+""""""""""""""""""""""""""""""""""""""""""""""
+"auto-install vim-plug
+""""""""""""""""""""""""""""""""""""""""""""""
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall
+endif
+
+"""""""""""""""""""""""""""""""""""""""""""""""
+
 call plug#begin('~/.vim/plugged')
 "Plug 'tpope/vim-sensible'
  Plug 'tpope/vim-fugitive' " plugin from http://vim-scripts.org/vim/scripts.html
@@ -48,6 +59,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'mbbill/undotree' , { 'on': 'UndotreeToggle' }
 call plug#end()
 
+command! PU PlugUpdate | PlugUpgrade
 filetype plugin indent on    " required
 							 " To ignore plugin indent changes, instead use:                                                                                                   
 							 "filetype plugin on 
