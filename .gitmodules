@@ -76,3 +76,6 @@
 [submodule "plugged/nerdtree"]
 	path = plugged/nerdtree
 	url = https://github.com/prettier/vim-scripts/scrooloose/nerdtree.git
+[submodule "plugged/undotree"]
+	path = plugged/undotree
+	url = https://github.com/mbbill/undotree.git

@@ -6,6 +6,15 @@ let g:tagbar_ctags_bin= '/usr/local/bin/ctags'
 """""""""""""""""""""""""""""""""""""
 "              Vim-Plug             "
 """""""""""""""""""""""""""""""""""""
+function! BuildYCM(info)
+  " info is a dictionary with 3 fields
+  " - name:   name of the plugin
+  " - status: 'installed', 'updated', or 'unchanged'
+  " - force:  set on PlugInstall! or PlugUpdate!
+  if a:info.status == 'installed' || a:info.force
+    !python3 install.py --clangd-completer --cs-completer --ts-completer --java-completer
+  endif
+endfunction
 
 call plug#begin('~/.vim/plugged')
 "Plug 'tpope/vim-sensible'
@@ -20,24 +29,23 @@ call plug#begin('~/.vim/plugged')
  Plug 'jiangmiao/auto-pairs'
  Plug 'scrooloose/syntastic'
  Plug 'ervandew/supertab'
- Plug 'Valloric/YouCompleteMe' " A code-completion engine for Vim.
- Plug 'SirVer/ultisnips'
- Plug 'honza/vim-snippets'
+ Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') } " A code-completion engine for Vim.
+ Plug 'SirVer/ultisnips'| Plug 'honza/vim-snippets'
  Plug 'smancill/conky-syntax.vim', {'for': 'conkyrc'}
  Plug 'xuhdev/vim-latex-live-preview'
  Plug 'majutsushi/tagbar'
  Plug 'xolox/vim-misc'
  Plug 'xolox/vim-easytags'	" A Vim plugin that manages your tag files.
- Plug 'Shougo/vimproc.vim'
+ Plug 'Shougo/vimproc.vim',{'do': 'make'} 
  Plug 'shougo/vimshell.vim'
  Plug 'junegunn/fzf'
  Plug 'terryma/vim-multiple-cursors'
  Plug 'octol/vim-cpp-enhanced-highlight'
  Plug 'prettier/vim-prettier'
  "Plug 'hjkl.vim'
- "Plug 'vim-scripts/dbext.vim'
  " On-demand loading
  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+ Plug 'mbbill/undotree' , { 'on': 'UndotreeToggle' }
 call plug#end()
 
 filetype plugin indent on    " required
