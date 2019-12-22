@@ -1,81 +1,48 @@
 set nocompatible
-"""""""""""""""""""""""""""""""""""""
-"            Pathogen               "
-"""""""""""""""""""""""""""""""""""""
-" Use pathogen to easily modify the runtime path to include all
-" plugins under the ~/.vim/bundle directory
-execute pathogen#infect()
-execute pathogen#helptags()
-""""""""""""""""""""""""""""""""""""
+
 filetype on                  " off required
 
-"""""""""""""""""""""""""""""""""""""
-"              Vundle               "
-"""""""""""""""""""""""""""""""""""""
-
-" set the runtime path to include Vundle and initialize
-
-set rtp+=~/.vim/bundle/Vundle.vim
-"let g:tagbar_ctags_bin= '/var/lib/snapd/snap/universal-ctags/current/bin/ctags'
 let g:tagbar_ctags_bin= '/usr/local/bin/ctags'
+"""""""""""""""""""""""""""""""""""""
+"              Vim-Plug             "
+"""""""""""""""""""""""""""""""""""""
 
-call vundle#begin() " alternatively, pass a path where Vundle should install plugins
-                    "call vundle#begin('~/some/path/here')
-                    " let Vundle manage Vundle, required
+call plug#begin('~/.vim/plugged')
+"Plug 'tpope/vim-sensible'
+ Plug 'tpope/vim-fugitive' " plugin from http://vim-scripts.org/vim/scripts.html
+ Plug 'mhinz/vim-startify'  " The fancy start screen for Vim.
+ Plug 'mhinz/vim-signify'   " Show a diff using Vim its sign column
+ Plug 'vim-airline/vim-airline' " lean & mean status/tabline for vim that's light as air.
+ Plug 'vim-airline/vim-airline-themes'
+ Plug 'scrooloose/nerdcommenter' " Vim plugin for intensely orgasmic commenting.			
+ Plug 'kien/rainbow_parentheses.vim' " Better Rainbow Parentheses.
+ Plug 'tpope/vim-surround'  " surround.vim: quoting/parenthesizing made simple.
+ Plug 'jiangmiao/auto-pairs'
+ Plug 'scrooloose/syntastic'
+ Plug 'ervandew/supertab'
+ Plug 'Valloric/YouCompleteMe' " A code-completion engine for Vim.
+ Plug 'SirVer/ultisnips'
+ Plug 'honza/vim-snippets'
+ Plug 'smancill/conky-syntax.vim', {'for': 'conkyrc'}
+ Plug 'xuhdev/vim-latex-live-preview'
+ Plug 'majutsushi/tagbar'
+ Plug 'xolox/vim-misc'
+ Plug 'xolox/vim-easytags'	" A Vim plugin that manages your tag files.
+ Plug 'Shougo/vimproc.vim'
+ Plug 'shougo/vimshell.vim'
+ Plug 'junegunn/fzf'
+ Plug 'terryma/vim-multiple-cursors'
+ Plug 'octol/vim-cpp-enhanced-highlight'
+ Plug 'prettier/vim-prettier'
+ "Plug 'hjkl.vim'
+ "Plug 'vim-scripts/dbext.vim'
+ " On-demand loading
+ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+call plug#end()
 
-            Plugin 'VundleVim/Vundle.vim' " The following are examples of different formats supported.
-                                          " Keep Plugin commands between vundle#begin/end.
-                                          " plugin on GitHub repo
-            Plugin 'tpope/vim-fugitive' " plugin from http://vim-scripts.org/vim/scripts.html
-            Plugin 'L9' " Git plugin not hosted on GitHub
-            Plugin 'scrooloose/nerdtree' " NerdTree Plugin
-            Plugin 'git://git.wincent.com/command-t.git' " git repos on your local machine (i.e. when working on your own plugin)
-                                                         "Plugin 'file:///home/gmarik/path/to/plugin'
-                                                         " The sparkup vim script is in a subdirectory of this repo called vim.
-                                                         " Pass the path to set the runtimepath properly.
-            Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}   " Install L9 and avoid a Naming conflict if you've already installed a
-                                                         " different version somewhere else.
- "           Plugin 'ascenator/L9', {'name': 'newL9'}
-														" All of your Plugins must be added before the following line
-			Plugin 'ervandew/supertab'
-			Plugin 'Valloric/YouCompleteMe'
-			Plugin 'SirVer/ultisnips'
-			Plugin 'honza/vim-snippets'
-			" The fancy start screen for Vim.
-			Plugin 'mhinz/vim-startify'
-			Plugin 'vim-airline/vim-airline'
-			Plugin 'vim-airline/vim-airline-themes'
-			Plugin 'scrooloose/nerdcommenter'
-			Plugin 'kien/rainbow_parentheses.vim'
-			Plugin 'tpope/vim-surround'
-			Plugin 'jiangmiao/auto-pairs'
-			Plugin 'scrooloose/syntastic'
-			Plugin 'smancill/conky-syntax.vim', {'for': 'conkyrc'}
-			Plugin 'xuhdev/vim-latex-live-preview'
-			Plugin 'majutsushi/tagbar'
-			Plugin 'xolox/vim-misc'
-			Plugin 'xolox/vim-easytags'
-			Plugin 'Shougo/vimproc.vim'
-			Plugin 'shougo/vimshell.vim'
-			Plugin 'junegunn/fzf'
-			Plugin 'terryma/vim-multiple-cursors'
-			Plugin 'octol/vim-cpp-enhanced-highlight'
-			Plugin 'vim-scripts/dbext.vim'
-call vundle#end()            				" required
 filetype plugin indent on    " required
 							 " To ignore plugin indent changes, instead use:                                                                                                   
 							 "filetype plugin on 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Brief help                                                                                     "
-" :PluginList       - lists configured plugins                                                   "
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate               "
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache                        "
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal     "
-" see :h vundle for more details or wiki for FAQ                                                 "
-" Put your non-Plugin stuff after this line														 "							
-																								 "
-																								 "
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
 "set termguicolors
 set autoread " Set to auto read when a file is changed from the outside
@@ -209,11 +176,19 @@ map <leader>ss :setlocal spell!<cr>
 "inoremap $q ''<esc>i
 "inoremap $e ""<esc>i
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""
+" => quicker window switching
 """"""""""""""""""""""""""""""""""""""""""
 map <C-Down> <C-W>j
 map <C-Up> <C-W>k
 map <C-Left> <C-W>h
 map <C-Right> <C-W>l
+map <C-Enter> <C-w>=
+map <C-,> <C-w><
+map <C-.> <C-w>>
+map <C-+> <C-w>+
+map <C--> <C-w>-
 """"""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Python section
@@ -247,10 +222,6 @@ au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
 au FileType javascript setl nocindent
 
-""""""""""""Prettier""""""""""""""""""""""""""""
-autocmd FileType javascript set formatprg=prettier\ --stdin
-autocmd BufWritePre *.js :normal gggqG
-""""""""""""""""""""""""""""""""""""""""""""""""
 au FileType javascript imap <c-t> $log();<esc>hi
 au FileType javascript imap <c-a> alert();<esc>hi
 
@@ -269,6 +240,18 @@ function! JavaScriptFold()
 endfunction
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Prettier section
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:prettier#exec_cmd_path = "/usr/lib/node_modules/prettier"
+" when running at every change you may want to disable quickfix
+let g:prettier#quickfix_enabled = 0
+"Running before saving async (vim 8+)
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Twig section
@@ -414,6 +397,8 @@ endif
 let g:airline_symbols.space = "\ua0"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
 let g:ycm_show_diagnostics_ui = 0
 let g:easytags_file = '~/.vim/tags'
 "let g:easytags_suppress_ctags_warning = 1

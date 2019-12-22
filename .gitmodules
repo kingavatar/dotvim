@@ -1,96 +1,78 @@
-[submodule "bundle/vimproc.vim"]
-	path = bundle/vimproc.vim
-	url = https://github.com/Shougo/vimproc.vim.git
-[submodule "bundle/vimshell.vim"]
-	path = bundle/vimshell.vim
-	url = https://github.com/Shougo/vimshell.vim.git
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = http://github.com/tpope/vim-fugitive.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
-	url = https://github.com/tpope/vim-surround
-[submodule "bundle/vim-multiple-cursors"]
-	path = bundle/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors
-[submodule "bundle/vim-misc"]
-	path = bundle/vim-misc
-	url = https://github.com/xolox/vim-misc
-[submodule "bundle/vim-easytags"]
-	path = bundle/vim-easytags
-	url = https://github.com/xolox/vim-easytags
-[submodule "bundle/vim-cpp-enhanced-highlight"]
-	path = bundle/vim-cpp-enhanced-highlight
-	url = https://github.com/octol/vim-cpp-enhanced-highlight
-[submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
-	url = https://github.com/vim-airline/vim-airline
-[submodule "bundle/vim-airline-themes"]
-	path = bundle/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic
-[submodule "bundle/sparkup"]
-	path = bundle/sparkup
-	url = https://github.com/rstacruz/sparkup
-[submodule "bundle/rainbow_parentheses.vim"]
-	path = bundle/rainbow_parentheses.vim
-	url = https://github.com/kien/rainbow_parentheses.vim
-[submodule "bundle/python-syntax"]
-	path = bundle/python-syntax
-	url = https://github.com/vim-python/python-syntax
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree
-[submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter
-[submodule "bundle/fzf"]
-	path = bundle/fzf
-	url = https://github.com/junegunn/fzf
-[submodule "bundle/dbext.vim"]
-	path = bundle/dbext.vim
-	url = https://github.com/vim-scripts/dbext.vim
-	ignore = untracked
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = https://github.com/wincent/command-t
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = https://github.com/valloric/youcompleteme
-	ignore = dirty
-[submodule "bundle/Vundle.vim"]
-	path = bundle/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
-[submodule "bundle/L9"]
-	path = bundle/L9
-	url = https://github.com/vim-scripts/L9
-	ignore = untracked
-[submodule "bundle/vim-latex-live-preview"]
-	path = bundle/vim-latex-live-preview
-	url = https://github.com/xuhdev/vim-latex-live-preview.git
-[submodule "bundle/ultisnips"]
-	path = bundle/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
-[submodule "bundle/vim-snippets"]
-	path = bundle/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
-[submodule "smancill/conky-syntax.vim"]
-	path = smancill/conky-syntax.vim
-	url = https://github.com/smancill/conky-syntax.vim.git
-[submodule "bundle/conky-syntax.vim"]
-	path = bundle/conky-syntax.vim
-	url = https://github.com/smancill/conky-syntax.vim.git
-[submodule "bundle/vim-startify"]
-	path = bundle/vim-startify
-	url = https://github.com/mhinz/vim-startify.git
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
-[submodule "bundle/auto-pairs"]
-	path = bundle/auto-pairs
+[submodule "plugged/vim-fugitive"]
+	path = plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "plugged/vim-startify"]
+	path = plugged/vim-startify
+	url = https://github.com/mhinz/vim-startify
+[submodule "plugged/vim-signify"]
+	path = plugged/vim-signify
+	url = https://github.com/mhinz/vim-signify
+[submodule "plugged/vim-airline"]
+	path = plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "plugged/vim-airline-themes"]
+	path = plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "plugged/nerdcommenter"]
+	path = plugged/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "plugged/rainbow_parentheses.vim"]
+	path = plugged/rainbow_parentheses.vim
+	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "plugged/vim-surround"]
+	path = plugged/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "plugged/auto-pairs"]
+	path = plugged/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "plugged/syntastic"]
+	path = plugged/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "plugged/supertab"]
+	path = plugged/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "plugged/YouCompleteMe"]
+	path = plugged/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "plugged/ultisnips"]
+	path = plugged/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "plugged/vim-snippets"]
+	path = plugged/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "plugged/vim-latex-live-preview"]
+	path = plugged/vim-latex-live-preview
+	url = https://github.com/xuhdev/vim-latex-live-preview.git
+[submodule "plugged/conky-syntax.vim"]
+	path = plugged/conky-syntax.vim
+	url = https://github.com/smancill/conky-syntax.vim.git
+[submodule "plugged/tagbar"]
+	path = plugged/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "plugged/vim-misc"]
+	path = plugged/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "plugged/vim-easytags"]
+	path = plugged/vim-easytags
+	url = https://github.com/xolox/vim-easytags.git
+[submodule "plugged/vimproc.vim"]
+	path = plugged/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "plugged/vimshell.vim"]
+	path = plugged/vimshell.vim
+	url = https://github.com/Shougo/vimshell.vim.git
+[submodule "plugged/fzf"]
+	path = plugged/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "plugged/vim-multiple-cursors"]
+	path = plugged/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "plugged/vim-cpp-enhanced-highlight"]
+	path = plugged/vim-cpp-enhanced-highlight
+	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
+[submodule "plugged/vim-prettier"]
+	path = plugged/vim-prettier
+	url = https://github.com/prettier/vim-prettier.git
+[submodule "plugged/nerdtree"]
+	path = plugged/nerdtree
+	url = https://github.com/prettier/vim-scripts/scrooloose/nerdtree.git
