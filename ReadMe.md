@@ -22,5 +22,22 @@ My Vim Configuration Files with plugins.
 
 ### For Upgrading all Plugins:
 ```
+  cd ~/.vim
   git submodule foreach git pull origin master
+```
+### For Removing a Plugin:
+```
+  cd ~/.vim
+  rm -rf plugged/submodule
+  git submodule deinit -f -- plugged/submodule
+  rm -rf .git/modules/plugged/submodule
+ ```
+ Then
+ ```
+  git rm -f plugged/submodule
+ ```
+Note: plugged/submodule (no trailing slash)
+or, if you want to leave it in your working tree and have deleted the plugin
+```
+  git rm --cached plugged/submodule
 ```
