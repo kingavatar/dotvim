@@ -38,7 +38,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'xolox/vim-easytags'	" A Vim plugin that manages your tag files.
  Plug 'Shougo/vimproc.vim',{'do': 'make'} 
  Plug 'shougo/vimshell.vim'
- Plug 'junegunn/fzf'
+ Plug 'junegunn/fzf', { 'do': './install --all' } | Plug 'junegunn/fzf.vim'
  Plug 'terryma/vim-multiple-cursors'
  Plug 'octol/vim-cpp-enhanced-highlight'
  Plug 'prettier/vim-prettier'

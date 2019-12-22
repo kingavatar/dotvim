@@ -79,3 +79,6 @@
 [submodule "plugged/undotree"]
 	path = plugged/undotree
 	url = https://github.com/mbbill/undotree.git
+[submodule "plugged/fzf.vim"]
+	path = plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
