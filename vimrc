@@ -17,7 +17,7 @@ filetype on                  " off required
 
 set rtp+=~/.vim/bundle/Vundle.vim
 "let g:tagbar_ctags_bin= '/var/lib/snapd/snap/universal-ctags/current/bin/ctags'
-let g:tagbar_ctags_bin= '/usr/bin/ctags'
+let g:tagbar_ctags_bin= '/usr/local/bin/ctags'
 
 call vundle#begin() " alternatively, pass a path where Vundle should install plugins
                     "call vundle#begin('~/some/path/here')
@@ -41,6 +41,7 @@ call vundle#begin() " alternatively, pass a path where Vundle should install plu
 			Plugin 'Valloric/YouCompleteMe'
 			Plugin 'SirVer/ultisnips'
 			Plugin 'honza/vim-snippets'
+			" The fancy start screen for Vim.
 			Plugin 'mhinz/vim-startify'
 			Plugin 'vim-airline/vim-airline'
 			Plugin 'vim-airline/vim-airline-themes'
@@ -415,6 +416,7 @@ let g:airline_symbols.space = "\ua0"
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 let g:ycm_show_diagnostics_ui = 0
 let g:easytags_file = '~/.vim/tags'
+"let g:easytags_suppress_ctags_warning = 1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 "            Keyboard Shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
