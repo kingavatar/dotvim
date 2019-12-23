@@ -63,8 +63,10 @@ command! PU PlugUpdate | PlugUpgrade
 filetype plugin indent on    " required
 							 " To ignore plugin indent changes, instead use:                                                                                                   
 							 "filetype plugin on 
-syntax on
+syntax enable " Turn on syntax highlighting
+syntax on " Turn on grammar detection 
 "set termguicolors
+autocmd! bufwritepost .vimrc source % " vimrc file is automatically loaded after modification
 set autoread " Set to auto read when a file is changed from the outside
 set hidden
 set nowrap        " don't wrap lines
@@ -76,6 +78,7 @@ set clipboard=unnamed " yank and paste with the system clipboard
 "set listchars=tab:▸\ ,trail:• 
 "set list          " Make whitespace characters visible
 "set listchars=tab:▸\ ,trail:• 
+set autowrite     " save before commands like : next,: make
 set ttyfast       " Indicates a fast terminal connection
 set autoindent    " always set autoindenting on
 set copyindent    " copy the previous indentation on autoindenting
@@ -104,6 +107,12 @@ set wildmode=list:longest   " List all matches and complete till longest common 
 set whichwrap+=<,>,h,l,[,]
 set ai "Auto indent
 set si "Smart indent
+
+if has('persistent_undo')      "check if your vim version supports it
+  set undofile                 "turn on the feature
+  set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
+endif
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Splits
 set splitbelow              " Open new splits below
