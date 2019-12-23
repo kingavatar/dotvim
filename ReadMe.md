@@ -44,21 +44,21 @@ My Vim Configuration Files with plugins. Used latest in Manjaro Linux. I usually
 - resize window: `<A-UpDownLeftRightEnter>`
 - continue indent text to left or right on select/normal mode: `>` `<`
 - Split: `:sp` Vertical Split: `vs`
-NerdCommenter
+##### NerdCommenter
 - comment/uncomment: `,cc`/`,cu`
 - comment toggle: `,c<space>`
 - comment sexy : `cs`
-Vim-Surround
+##### Vim-Surround
 - wrap `{` \ `}` for a word: `ysiw{`
 - delete wrap `{` around word: `ds{`
 - wrap entire line `{` : `yss{` for parentesis `(`: `yssb`
 - change wrap `{` with `[` : `cs{[`
 - Surround in Visual Mode : `S<p class="important">`
-Utilsnips
+##### Utilsnips
 - expand trigger: `Tab`
 - jump forward trigger: `<C-b>`
 - jump backward trigger: `<C-z>`
-Vim-multiple-cursors
+##### Vim-multiple-cursors
 - start multicursor: `<C-n>`
 - next multicursor : `<C-n>`
 - skip multicursor : `<C-x>`
@@ -66,16 +66,20 @@ Vim-multiple-cursors
 - stop multicursor: `v`
 - select all multicursors: `<A-n>`
 - Cancel multicursor: `Esc`
-Python(Insert Mode)
+##### Python(Insert Mode)
 - `$r` : return
 - `$i` : import
 - `$p` : print
 - `,1` : /class `,C` : ?class
 - `,2` : /def `,D` : ?def
-JavaScript(Import Mode)
+##### JavaScript(Import Mode)
 - `$r` : return
-Fugitive
-- git status : `:G`
+##### Fugitive
+- git status: `:G`
+- git <command>: `:G<command>`
+- git <operation>: `:Git <operation>`
+- webpage repository: `Gbrowse` 
+
 ## Upgrading
 ### For Upgrading all Plugins
 Manually you can do
