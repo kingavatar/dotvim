@@ -76,8 +76,8 @@ My Vim Configuration Files with plugins. Used latest in Manjaro Linux. I usually
 - `$r` : return
 ##### Fugitive
 - git status: `:G`
-- git <command>: `:G<command>`
-- git <operation>: `:Git <operation>`
+- git \<command\>: `:G<command>`
+- git \<operation\>: `:Git <operation>`
 - webpage repository: `Gbrowse` 
 
 ## Upgrading
