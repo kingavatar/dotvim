@@ -82,3 +82,6 @@
 [submodule "plugged/fzf.vim"]
 	path = plugged/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "plugged/sweet-dark.vim"]
+	path = plugged/sweet-dark.vim
+	url = https://github.com/jschmold/sweet-dark.vim.git

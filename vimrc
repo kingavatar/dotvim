@@ -53,6 +53,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'terryma/vim-multiple-cursors'
  Plug 'octol/vim-cpp-enhanced-highlight'
  Plug 'prettier/vim-prettier'
+ Plug 'jschmold/sweet-dark.vim'
  "Plug 'hjkl.vim'
  " On-demand loading
  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
@@ -60,23 +61,37 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 command! PU PlugUpdate | PlugUpgrade
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"  => Base Configuration    
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype plugin indent on    " required
 							 " To ignore plugin indent changes, instead use:                                                                                                   
 							 "filetype plugin on 
+
+
 syntax enable " Turn on syntax highlighting
 syntax on " Turn on grammar detection 
-"set termguicolors
+set laststatus=2  " Status bar configuration
+set termguicolors
+set autoread      " Set to auto read when a file is changed from the outside
 autocmd! bufwritepost .vimrc source % " vimrc file is automatically loaded after modification
-set autoread " Set to auto read when a file is changed from the outside
+if has ('autocmd') " Remain compatible with earlier versions
+ augroup vimrc     " Source vim configuration upon save
+    autocmd! BufWritePost $MYVIMRC source % | echom "Reloaded " . $MYVIMRC | redraw
+    autocmd! BufWritePost $MYGVIMRC if has('gui_running') | so % | echom "Reloaded " . $MYGVIMRC | endif | redraw
+  augroup END
+endif " has autocmd
 set hidden
 set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 set backupcopy=yes " see :help crontab
 set clipboard=unnamed " yank and paste with the system clipboard
-"set list          " Make whitespace characters visible
+"set list         " Make whitespace characters visible
 "set listchars=tab:▸\ ,trail:• 
-"set list          " Make whitespace characters visible
+"set list         " Make whitespace characters visible
 "set listchars=tab:▸\ ,trail:• 
 set autowrite     " save before commands like : next,: make
 set ttyfast       " Indicates a fast terminal connection
@@ -179,7 +194,8 @@ fu! IoStream()
     endif
 endfu
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-color dracula
+"color dracula
+colorscheme sweet_dark
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Spell checking
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -215,10 +231,10 @@ map <C-Up> <C-W>k
 map <C-Left> <C-W>h
 map <C-Right> <C-W>l
 map <C-Enter> <C-w>=
-map <C-,> <C-w><
-map <C-.> <C-w>>
-map <C-+> <C-w>+
-map <C--> <C-w>-
+map <A-Left> <C-w><
+map <A-Right> <C-w>>
+map <A-Up> <C-w>+
+map <A-Down> <C-w>-
 """"""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Python section
