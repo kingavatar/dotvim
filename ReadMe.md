@@ -1,5 +1,12 @@
-# DotVim
+# :pancakes: DotVim
 My Vim Configuration Files with plugins. Used latest in Manjaro Linux. I usually use it to write some Python, C/C++, java and React etc. It uses Vim-Plug to manage Plugins.
+
+## Vim Version
+VIM - Vi IMproved 8.1 (2018 May 18, compiled Nov  7 2019 22:30:47)
+
+Included patches: 1-2268
+
+Compiled by Arch Linux(Manjaro OS)
 
 ## Installation
 
@@ -119,7 +126,7 @@ or, if you want to leave it in your working tree and have deleted the plugin
 - [vim-surround](https://github.com/tpope/vim-surround) quoting/parenthesizing made simple.
 - [vim-startify](https://github.com/mhinz/vim-startify) A fancy start screen for Vim.
 - [vim-signify](https://github.com/mhinz/vim-signify) Show a diff using Vim its sign column.
-- [vim-fugitive](https://github.com/tpope/vim-fugitive) The Best Git wrapper of all time.
+- [vim-fugitive](https://github.com/tpope/vim-fugitive) A Git wrapper so awesome, it should be illegal.
 - [sweet-dark.vim](https://github.com/jschmold/sweet-dark.vim) color scheme as Sweet as kde theme.
 - [auto-pairs](https://github.com/jiangmiao/auto-pairs) Insert or delete brackets, parens, quotes in pair.
 - [rainbow_parentheses.vim](https://github.com/kien/rainbow_parentheses.vim) Better Rainbow Parentheses.
@@ -128,7 +135,7 @@ or, if you want to leave it in your working tree and have deleted the plugin
 - [vim-snippets](https://github.com/honza/vim-snippets) vim-snipmate default snippets.
 - [UltiSnips](https://github.com/SirVer/ultisnips) The ultimate snippet solution for Vim.
 - [vim-easytags](https://github.com/xolox/vim-easytags) A plugin to manage your tag files.
-- [syntastic](https://github.com/scrooloose/syntastic) Syntax checking hacks for vim.
+- [ale](https://github.com/dense-analysis/ale.git) Asynchronous Syntax checking hacks for vim.
 - [conky-syntax.vim](https://github.com/smancill/conky-syntax.vim) Vim syntax highlighting for conkyrc files.
 - [vim-latex-live-preview](https://github.com/xuhdev/vim-latex-live-preview) A Vim Plugin for Lively Previewing LaTeX PDF.
 - [tagbar](https://github.com/majutsushi/tagbar) Vim plugin that displays tags in a window, ordered by scope.
