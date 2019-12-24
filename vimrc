@@ -38,8 +38,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'kien/rainbow_parentheses.vim' " Better Rainbow Parentheses.
  Plug 'tpope/vim-surround'  " surround.vim: quoting/parenthesizing made simple.
  Plug 'jiangmiao/auto-pairs'
- Plug 'scrooloose/syntastic'
- Plug 'ervandew/supertab'
+ Plug 'dense-analysis/ale'
  Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') } " A code-completion engine for Vim.
  Plug 'SirVer/ultisnips'| Plug 'honza/vim-snippets'
  Plug 'smancill/conky-syntax.vim', {'for': 'conkyrc'}
@@ -315,17 +314,11 @@ let g:livepreview_previewer = 'evince'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-"   => Syntastic
+"   => ALE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
+let b:ale_fixers = { '*': ['remove_trailing_lines', 'trim_whitespace'],
+			\ 'javascript': ['prettier', 'eslint']}
+let g:ale_fix_on_save = 1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""

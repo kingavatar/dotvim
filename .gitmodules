@@ -25,12 +25,6 @@
 [submodule "plugged/auto-pairs"]
 	path = plugged/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
-[submodule "plugged/syntastic"]
-	path = plugged/syntastic
-	url = https://github.com/scrooloose/syntastic.git
-[submodule "plugged/supertab"]
-	path = plugged/supertab
-	url = https://github.com/ervandew/supertab.git
 [submodule "plugged/YouCompleteMe"]
 	path = plugged/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
@@ -85,3 +79,6 @@
 [submodule "plugged/sweet-dark.vim"]
 	path = plugged/sweet-dark.vim
 	url = https://github.com/jschmold/sweet-dark.vim.git
+[submodule "plugged/ale"]
+	path = plugged/ale
+	url = https://github.com/dense-analysis/ale.git
