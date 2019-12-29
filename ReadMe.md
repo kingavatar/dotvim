@@ -36,7 +36,7 @@ My Vim Configuration Files with plugins. Used latest in Manjaro Linux. I usually
 - vimshell toggle: `,m`
 - tagbar toggle: `,t`
 - undotree toggle: `,U`
-- prettier trigger: `,p`
+<!--- prettier trigger: `,p`-->
 - spell checking toggle: `,ss`
 - paste toggle: `<F2>`
 - toggle uppercase/lowercase: `~`
@@ -139,5 +139,5 @@ or, if you want to leave it in your working tree and have deleted the plugin
 - [fzf](https://github.com/junegunn/fzf)  :cherry_blossom: A command-line fuzzy finder .
 - [fzf.vim](https://github.com/junegunn/fzf.vim)  fzf :heart: vim.
 - [vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight) Additional Vim syntax highlighting for C++
-- [vim-prettier](https://github.com/prettier/vim-prettier)  A Vim plugin for Prettier.
+<!--- [vim-prettier](https://github.com/prettier/vim-prettier)  A Vim plugin for Prettier.-->
 - [undotree](https://github.com/mbbill/undotree) The undo history visualizer for VIM.

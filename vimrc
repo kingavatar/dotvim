@@ -51,8 +51,8 @@ call plug#begin('~/.vim/plugged')
  Plug 'junegunn/fzf', { 'do': './install --all' } | Plug 'junegunn/fzf.vim'
  Plug 'terryma/vim-multiple-cursors'
  Plug 'octol/vim-cpp-enhanced-highlight'
- Plug 'prettier/vim-prettier'
  Plug 'jschmold/sweet-dark.vim'
+ "Plug 'prettier/vim-prettier', {'do': 'yarn install'}
  " On-demand loading
  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
  Plug 'mbbill/undotree' , { 'on': 'UndotreeToggle' }
@@ -265,12 +265,13 @@ endfunction
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Prettier section
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:prettier#exec_cmd_path = "/usr/lib/node_modules/prettier"
-" when running at every change you may want to disable quickfix
-let g:prettier#quickfix_enabled = 0
-"Running before saving async (vim 8+)
-let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+
+"let g:prettier#exec_cmd_path = "/usr/bin/prettier"
+"" when running at every change you may want to disable quickfix
+"let g:prettier#quickfix_enabled = 0
+""Running before saving async (vim 8+)
+"let g:prettier#autoformat = 0
+"autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

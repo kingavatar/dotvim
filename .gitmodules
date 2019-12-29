@@ -64,9 +64,6 @@
 [submodule "plugged/vim-cpp-enhanced-highlight"]
 	path = plugged/vim-cpp-enhanced-highlight
 	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
-[submodule "plugged/vim-prettier"]
-	path = plugged/vim-prettier
-	url = https://github.com/prettier/vim-prettier.git
 [submodule "plugged/nerdtree"]
 	path = plugged/nerdtree
 	url = https://github.com/prettier/vim-scripts/scrooloose/nerdtree.git
