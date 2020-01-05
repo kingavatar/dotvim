@@ -318,7 +318,10 @@ let g:livepreview_previewer = 'evince'
 "   => ALE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 let b:ale_fixers = { '*': ['remove_trailing_lines', 'trim_whitespace'],
-			\ 'javascript': ['prettier', 'eslint']}
+			\ 'javascript': ['prettier', 'eslint'],
+			\   'css': ['prettier'],
+			\}
+let g:ale_linters_explicit = 1
 let g:ale_fix_on_save = 1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
