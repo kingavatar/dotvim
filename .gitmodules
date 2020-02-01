@@ -25,9 +25,6 @@
 [submodule "plugged/auto-pairs"]
 	path = plugged/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
-[submodule "plugged/YouCompleteMe"]
-	path = plugged/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "plugged/ultisnips"]
 	path = plugged/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
@@ -79,3 +76,9 @@
 [submodule "plugged/ale"]
 	path = plugged/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "plugged/vim-js"]
+	path = plugged/vim-js
+	url = https://github.com/yuezk/vim-js.git
+[submodule "plugged/vim-jsx-pretty"]
+	path = plugged/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty.git

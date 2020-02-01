@@ -39,7 +39,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'tpope/vim-surround'  " surround.vim: quoting/parenthesizing made simple.
  Plug 'jiangmiao/auto-pairs'
  Plug 'dense-analysis/ale'
- Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') } " A code-completion engine for Vim.
+ "Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') } " A code-completion engine for Vim.
  Plug 'SirVer/ultisnips'| Plug 'honza/vim-snippets'
  Plug 'smancill/conky-syntax.vim', {'for': 'conkyrc'}
  Plug 'xuhdev/vim-latex-live-preview' , {'for' : 'tex'}
@@ -52,6 +52,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'terryma/vim-multiple-cursors'
  Plug 'octol/vim-cpp-enhanced-highlight'
  Plug 'jschmold/sweet-dark.vim'
+ Plug 'yuezk/vim-js' | Plug 'maxmellon/vim-jsx-pretty'
  "Plug 'prettier/vim-prettier', {'do': 'yarn install'}
  " On-demand loading
  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
@@ -115,7 +116,7 @@ set wildmode=list:longest   " List all matches and complete till longest common 
 set whichwrap+=<,>,h,l,[,]
 set ai "Auto indent
 set si "Smart indent
-
+highlight Comment cterm=italic
 if has('persistent_undo')      "check if your vim version supports it
   set undofile                 "turn on the feature
   set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
@@ -210,6 +211,8 @@ map <A-Left> <C-w><
 map <A-Right> <C-w>>
 map <A-Up> <C-w>+
 map <A-Down> <C-w>-
+nnoremap << :bp<cr>
+nnoremap >> :bn<cr>
 """"""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Python section
