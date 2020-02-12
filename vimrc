@@ -52,12 +52,20 @@ call plug#begin('~/.vim/plugged')
  Plug 'terryma/vim-multiple-cursors'
  Plug 'octol/vim-cpp-enhanced-highlight'
  Plug 'jschmold/sweet-dark.vim'
+ Plug 'ryanoasis/vim-devicons'
  Plug 'yuezk/vim-js' | Plug 'maxmellon/vim-jsx-pretty'
  "Plug 'prettier/vim-prettier', {'do': 'yarn install'}
  " On-demand loading
  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
  Plug 'mbbill/undotree' , { 'on': 'UndotreeToggle' }
-call plug#end()
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+ call plug#end()
 
 command! PU PlugUpdate | PlugUpgrade
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -70,6 +78,7 @@ filetype plugin indent on    " required
 							 "filetype plugin on
 syntax enable " Turn on syntax highlighting
 syntax on " Turn on grammar detection
+set omnifunc=syntaxcomplete#Complete
 set laststatus=2  " Status bar configuration
 set termguicolors
 set autoread      " Set to auto read when a file is changed from the outside
@@ -81,6 +90,7 @@ if has ('autocmd') " Remain compatible with earlier versions
   augroup END
 endif " has autocmd
 set hidden
+set mouse=a       " Enable GUI mouse behavior
 set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
@@ -211,8 +221,9 @@ map <A-Left> <C-w><
 map <A-Right> <C-w>>
 map <A-Up> <C-w>+
 map <A-Down> <C-w>-
-nnoremap << :bp<cr>
-nnoremap >> :bn<cr>
+map ,, :tabprevious<cr>
+map .. :tabnext<cr>
+
 """"""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Python section
@@ -320,12 +331,48 @@ let g:livepreview_previewer = 'evince'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 "   => ALE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-let b:ale_fixers = { '*': ['remove_trailing_lines', 'trim_whitespace'],
-			\ 'javascript': ['prettier', 'eslint'],
-			\   'css': ['prettier'],
-			\}
+let g:ale_linters = {
+\   'python': ['flake8', 'pylint'],
+\   'javascript': ['eslint'],
+\   'vue': ['eslint']
+\}
+"let b:ale_fixers = { '*': ['remove_trailing_lines', 'trim_whitespace'],
+			"\ 'javascript': ['prettier', 'eslint'],
+			"\   'css': ['prettier'],
+			"\}
+let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace'],
+  \    'javascript': ['eslint'],
+  \    'typescript': ['prettier', 'tslint'],
+  \    'vue': ['eslint'],
+  \    'css': ['prettier'],
+  \    'scss': ['prettier'],
+  \    'html': ['prettier'],
+  \    'reason': ['refmt']
+\}
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = '⚠'
+let g:ale_lint_on_enter = 0
+let g:ale_lint_on_text_changed = 'never'
+highlight ALEErrorSign ctermbg=NONE ctermfg=red
+highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
 let g:ale_linters_explicit = 1
+let g:ale_lint_on_save = 1
 let g:ale_fix_on_save = 1
+nnoremap <leader>af :ALEFix<cr>
+let g:ale_javascript_prettier_options = '--no-semi --single-quote --trailing-comma none'
+nnoremap ]r :ALENextWrap<CR>     " move to the next ALE warning / error
+nnoremap [r :ALEPreviousWrap<CR> " move to the previous ALE warning / error
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"     =>  Deoplete
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set pyxversion=3
+set encoding=utf-8
+let g:python_host_prog = "/usr/bin/python2"
+let g:python3_host_prog = "/usr/bin/python3"
+call deoplete#custom#var('clangx', 'clang_binary', '/usr/bin/clang')
+let g:deoplete#enable_at_startup = 1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
