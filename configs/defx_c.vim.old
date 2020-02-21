@@ -1,0 +1,24 @@
+"autocmd VimEnter * if isdirectory(expand(printf('#%s:p', expand('<abuf>')))) | call Defx | endif
+
+call defx#custom#option('_', {
+\ 'winwidth': 30,
+\ 'split': 'vertical',
+\ 'direction': 'topleft',
+\ 'columns': 'indent:git:icons:filename:type',
+"\ 'columns': 'icons:indent:filename:type',
+"\ 'columns': 'indent:icons:indent:filename:type',
+\ 'show_ignored_files': 1,
+\ 'toggle': 1,
+\ })
+let g:defx_icons_enable_syntax_highlight = 1
+let g:defx_icons_column_length = 2
+let g:defx_git#indicators = {
+	\ 'Modified'  : '•',
+	\ 'Staged'    : '✚',
+	\ 'Untracked' : 'ᵁ',
+	\ 'Renamed'   : '≫',
+	\ 'Unmerged'  : '≠',
+	\ 'Ignored'   : 'ⁱ',
+	\ 'Deleted'   : '✖',
+	\ 'Unknown'   : '⁇'
+	\ }

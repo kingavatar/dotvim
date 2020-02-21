@@ -1,0 +1,28 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"     =>  Deoplete
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"set pyxversion=3
+"set encoding=utf-8
+""let g:python_host_prog = "/usr/bin/python2"
+""let g:python3_host_prog = "/usr/bin/python3"
+"call deoplete#custom#var('clangx', 'clang_binary', '/usr/bin/clang')
+""call deoplete#custom#option('sources', {
+""\ '_': ['ale'],
+""\})
+"let g:deoplete#enable_at_startup = 1
+"let g:deoplete#complete_method = "complete"
+"let g:deoplete#auto_complete_delay = 0
+"let g:deoplete#sources#jedi#show_docstring = 1
+"let g:deoplete#ignore_sources = {}
+"let g:deoplete#ignore_sources.ocaml = ['buffer', 'around', 'member', 'tag']
+"let g:deoplete#sources#ternjs#case_insensitive = 1
+
+"let g:deoplete#sources#ternjs#include_keywords = 1
+"let g:deoplete#sources#ternjs#filetypes = [
+                "\ 'jsx',
+                "\ 'javascript.jsx',
+                "\ 'vue',
+                "\ 'tsx',
+                "\ ]
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
