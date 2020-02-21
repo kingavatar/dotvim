@@ -57,7 +57,7 @@ nnoremap <leader>d :NERDTreeToggle<CR>
 "nnoremap <leader>d :Defx<CR>
 nnoremap <leader>r :RainbowParenthesesToggle<CR>
 nnoremap <leader>m :VimShellPop<CR>
-nnoremap <leader>t :TagbarToggle<CR>
+"nnoremap <leader>t :TagbarToggle<CR>
 nnoremap <leader>v :Vista!!<CR>
 nnoremap <leader>U :UndotreeToggle<CR>
 "nnoremap <leader>af :ALEFix<cr>
