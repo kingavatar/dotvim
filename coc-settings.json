@@ -25,13 +25,18 @@
 	"git.addGblameToBufferVar": true,
 	"git.addGblameToVirtualText": true,
 	"git.virtualTextPrefix": " ❯❯❯ ",
-
+	"python.linting.pylintArgs": ["--generate-members"],
 	"languageserver": {
 		"bash": {
 			"command": "bash-language-server",
 		"filetypes": ["sh"],
 		"args": ["start"],
 		"ignoredRootPaths": ["~"]
+    },
+    "ocaml-lsp": {
+        "command": "opam",
+        "args": ["config", "exec", "--", "ocamllsp"],
+        "filetypes": ["ocaml", "reason"]
     },
     "ccls": {
       "command": "ccls",

@@ -22,15 +22,15 @@ call plug#begin('~/.vim/plugged')
  Plug 'jiangmiao/auto-pairs'
  "Plug 'dense-analysis/ale'
  "Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') } " A code-completion engine for Vim.
- "Plug 'SirVer/ultisnips' 
+ "Plug 'SirVer/ultisnips'
  Plug 'honza/vim-snippets'
  Plug 'smancill/conky-syntax.vim', {'for': 'conkyrc'}
  Plug 'xuhdev/vim-latex-live-preview' , {'for' : 'tex'}
- Plug 'majutsushi/tagbar'
- Plug 'xolox/vim-misc'
- Plug 'xolox/vim-easytags'	" A Vim plugin that manages your tag files.
+ "Plug 'majutsushi/tagbar'
+ "Plug 'xolox/vim-easytags'	" A Vim plugin that manages your tag files.
  Plug 'Shougo/vimproc.vim',{'do': 'make'}
  Plug 'shougo/vimshell.vim'
+ Plug 'skywind3000/asyncrun.vim'
  Plug 'junegunn/fzf', { 'do': './install --all' } | Plug 'junegunn/fzf.vim'
  Plug 'terryma/vim-multiple-cursors'
  Plug 'octol/vim-cpp-enhanced-highlight' , { 'for' : ['c','cpp'] }

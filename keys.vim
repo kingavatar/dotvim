@@ -48,7 +48,7 @@ nnoremap <C-t>     :tabnew<CR>
 inoremap <S-tab>   <Esc>:tabnext<CR>i
 inoremap <C-t>     <Esc>:tabnew<CR>
 """"""""""""""""""""""""""""""""""""""""""
-
+nnoremap <buffer><leader>om :AsyncRun grip -b %<cr>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 "     =>   Keyboard Shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
