@@ -19,6 +19,7 @@ let g:coc_global_extensions =  [
 			\]
 " Give more space for displaying messages.
 set cmdheight=2
+let g:coc_node_path = '/home/saikiran/.nvm/versions/node/v13.13.0/bin/node'
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.

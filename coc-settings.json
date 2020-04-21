@@ -1,10 +1,5 @@
 {
   "coc.preferences.formatOnType": true,
-  "tsserver.enableJavascript": true,
-  "tslint.enable": true,
-  "tslint.autoFixOnSave": true,
-  "javascript.validate.enable": false,
-  "codeLens.enable": true,
   "diagnostic.virtualText": true,
   "diagnostic.checkCurrentLine": true,
   "signature.target": "echo",
@@ -16,11 +11,14 @@
     "suggest.echodocSupport": true,
 	"suggest.noselect": false,
 
+	"npm.binPath":"/home/saikiran/.nvm/versions/node/v13.13.0/bin/npm",
+	"tsserver.npm":"/home/saikiran/.nvm/versions/node/v13.13.0/bin/npm",
 	"eslint.autoFixOnSave": true,
 	"eslint.autoFix": true,
-	"eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
-
-
+	"eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact","vue"],
+	"eslint.options":{
+		"configFile":"/home/saikiran/Documents/Projects/venex/.eslintrc.js"
+	},
 	"git.enableGutters": true,
 	"git.addGblameToBufferVar": true,
 	"git.addGblameToVirtualText": true,
