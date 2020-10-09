@@ -65,27 +65,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'neoclide/coc.nvim', {
 			 \'branch': 'release',
 			  \'do': { -> coc#util#install()}}
-			 "\'do':[
-			 "\':CocInstall coc-json'
-			 "\,':CocInstall coc-github'
-			 "\,':CocInstall coc-git'
-			 "\,':CocInstall coc-vetur'
-			 "\,':CocInstall coc-java'
-			 "\,':CocInstall coc-python'
-			 "\,':CocInstall coc-highlight'
-			 "\,':CocInstall coc-ultisnips'
-			 "\,':CocInstall coc-python'
-			 "\,':CocInstall coc-texlab'
-			 "\,':CocInstall coc-snippets'
-			 "\,':CocInstall coc-explorer'
-			 "\,':CocInstall coc-tsserver'
-			 "\,':CocInstall coc-html'
-			 "\,':CocInstall coc-css'
-			 "\,':CocInstall coc-tslint'
-			 "\,':CocInstall coc-eslint'
-			 "\,':CocInstall coc-emoji'
-			 "\]}
-
+ Plug 'vn-ki/coc-clap'
 "if has('nvim')
   "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "else

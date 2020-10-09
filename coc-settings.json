@@ -2,7 +2,7 @@
   "coc.preferences.formatOnType": true,
   "diagnostic.virtualText": true,
   "diagnostic.checkCurrentLine": true,
-  "signature.target": "echo",
+  "diagnostic.messageTarget": "float",
 
 	"suggest.triggerAfterInsertEnter": false,
   	"suggest.timeout": 500,
